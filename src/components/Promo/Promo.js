@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react'
-import classNames from 'classnames';
 import CSSModules from 'react-css-modules'
 import styles from './Promo.scss'
 import Socials from '../Socials/Socials'
@@ -39,14 +38,15 @@ export class Promo extends React.Component {
             Your Invitation Link
           </div>
           <div styleName='input-container'>
-            <input styleName="input" type="text" value="https://www.twinspires.com/account/register?promo_code=CAMID" />
-            <div styleName="copy">COPY</div>
+            <input styleName='input' type='text' value='https://www.twinspires.com/account/register?promo_code=CAMID' />
+            <div styleName='copy'>COPY</div>
           </div>
 
           <div onClick={this._onClick} styleName='link'>
             Show your Promo Code
           </div>
         </div>
+        <Socials />
       </div>
     )
   }
