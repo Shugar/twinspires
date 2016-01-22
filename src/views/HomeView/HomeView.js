@@ -14,6 +14,7 @@ export class HomeView extends React.Component {
       <div styleName='container'>
         <img styleName='image' src={Image} />
         <Header />
+        <Login />
         <Promo />
       </div>
     )

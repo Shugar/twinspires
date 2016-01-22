@@ -1,0 +1,27 @@
+.promo {
+  background: #c7e2f5;
+  border-radius: 10px;
+  max-width: 670px;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.text,
+.code,
+.link {
+  font-size: 18px;
+}
+
+.code {
+  font-weight: 600;
+}
+
+.link {
+  margin-top: 25px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #0068b3;
+}
